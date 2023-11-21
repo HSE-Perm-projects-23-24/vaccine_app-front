@@ -1,0 +1,30 @@
+.MainContainer{
+    justify-content: center;
+    .HeaderContainer{
+        width: fit-content;
+        height: fit-content;
+        justify-content: center;
+        margin: auto;
+        display: flex;
+    }
+    align-items: center;
+    .EnterFieldsContainer{
+        width: fit-content + 50px;
+        height: fit-content + 50px;
+        border-color: lightgray;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        box-shadow: 0 3px 8px gray;
+    }
+    .SubmitButton{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 15px;
+    }
+    .backButton{
+        margin-top: 390px;
+    }
+}

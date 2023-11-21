@@ -1,0 +1,12 @@
+{
+  "countriesUrl": "https://localhost:7014/api/Countries",
+  "patientsTypesUrl": "https://localhost:7014/api/PatientTypes",
+  "vaccinesUrl": "https://localhost:7014/api/Vaccines",
+  "vaccinesMakersUrl": "https://localhost:7014/api/VaccineMakers",
+  "vaccinesTypesUrl": "https://localhost:7014/api/VaccineTypes",
+  "proceduresUrl": "https://localhost:7014/api/Procedures",
+  "doneProceduresUrl": "https://localhost:7014/api/DoneProcedures",
+  "userUrl": "https://localhost:7014/api/User",
+  "registrationUrl": "https://localhost:7014/api/Registration",
+  "adminLoginUrl": "https://localhost:7014/api/Admins"
+}

@@ -1,0 +1,24 @@
+.popup {
+    width: 500px;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    padding: 20px;
+    background-color: white;
+    width: 457px;
+}
+
+.popup-content .close-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}

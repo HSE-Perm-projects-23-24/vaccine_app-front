@@ -1,0 +1,15 @@
+.MainContainer{
+    .PTDataGrid{
+        width: fit-content;
+        height: 510px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    .BackButton{
+        justify-content: start;
+        align-items: start;
+        display: flex;
+    }
+}

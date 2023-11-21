@@ -1,0 +1,37 @@
+.MainContainer{
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    position: relative;
+    z-index: 1;
+    .FiltersContainer{
+        height: 100px;
+        width: 100%;
+        box-shadow: 0 3px 8px gray;
+        border: 1px gray;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        .PictureButtonsContainer{
+            margin-left: 220px;
+            float: right;
+            .ExlButton{
+                background-color: white;
+                border-width: 0px;
+            }
+            .QuestionButton{
+                margin-left: 20px;
+                background-color: white;
+                border-width: 0px;
+            }
+        }
+    }
+    .DataGridContainer{
+        height: 400px;
+        width: fit-content;
+        box-shadow: 0 3px 8px gray;
+        border: 1px gray;
+        display: flex;
+        margin: auto;
+    }
+}

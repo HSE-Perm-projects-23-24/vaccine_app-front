@@ -1,0 +1,24 @@
+.MainContainer{
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    z-index: 1;
+    position: relative;
+    .FiltersContainer{
+        height: fit-content;
+        width: 100%;
+        box-shadow: 0 3px 8px gray;
+        border: 1px gray;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    .DataGridContainer{
+        height: 400px;
+        width: fit-content;
+        box-shadow: 0 3px 8px gray;
+        border: 1px gray;
+        display: flex;
+        margin: auto;
+    }
+}

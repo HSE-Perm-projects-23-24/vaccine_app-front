@@ -1,0 +1,23 @@
+.MainContainer{    
+    flex-direction: column;
+    .HeaderContainer{
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+    }
+    .EnterFieldsContainer{
+        width: fit-content + 50px;
+        height: fit-content;
+        border-color: lightgray;
+        margin: auto;
+        box-shadow: 0 3px 8px gray;
+    }
+    .SubmitButton{
+        margin-top: 15px;
+    }
+    .backButton{
+        float: left;
+        margin-left: 20px;
+        margin-top: -25px;
+    }
+}

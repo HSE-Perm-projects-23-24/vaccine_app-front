@@ -1,0 +1,39 @@
+.MainContainer{
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    .ContainerHeader{
+        color: black;
+        text-align: 'center';
+        margin-top: -10px;
+        margin-bottom: -10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .CountriesDataGrid{
+        height: 510px;
+        width: fit-content;
+        box-shadow: 0 3px 8px gray;
+        border: 1px gray;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    .ButtonsContainer{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .BackButton{
+        margin-left: 25px;
+    }
+    .AddContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+    }
+}
